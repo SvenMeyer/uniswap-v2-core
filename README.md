@@ -22,3 +22,16 @@ The following assumes the use of `node@>=10`.
 ## Run Tests
 
 `yarn test`
+
+## Deploy
+
+moonbeam alpha (testnet) : get some funds here [https://docs.moonbeam.network/getting-started/testnet/faucet/](https://docs.moonbeam.network/getting-started/testnet/faucet/)
+
+make sure to specify a private key (and the right one).
+Check `truffle-config.js` for setup.
+
+Do not put your private key (ever) into a file (which might end up on github). Define an environment variable. You may put this in your `.bashrc`
+
+`export METAMASK_DEV_KEY_3="50c2d3e07adc3...........37f1d1426d1452ab7e0c5a3501"`
+
+`truffle migrate --network mbtest --reset`
