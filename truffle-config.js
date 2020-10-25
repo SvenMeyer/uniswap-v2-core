@@ -29,7 +29,7 @@ const PrivateKeyProvider = require ('./private-provider')
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 // const mnemonic = process.env["METAMASK_DEV_SEED"].trim();
-const privateKey = process.env["METAMASK_DEV_KEY_0"].trim();
+const privateKey = process.env["METAMASK_DEV_KEY_3"].trim();
 
 console.log("using PK : ", {privateKey});
 
